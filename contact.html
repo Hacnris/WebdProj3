@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+	<head>
+		<title>HACWEED Contact Page</title>
+		<script src="contact.js"></script>
+		<link rel="stylesheet" type="text/css" href="index.css">
+		
+	</head>
+	
+
+	<body>
+		<header>
+		<section id = "head">
+			<section id="navbar">
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href ="product.html">Products</a></li>
+						<li id="thispage">Contact Us</li>
+					</ul>
+				</nav>
+			</section>
+			<section id="signs">
+				<nav>
+					<ul>
+						<li>Sign In</li>
+						<li>Sign Up</li>
+					</ul>
+				</nav>
+			</section>
+		</section><!--End of head section-->
+	</header>
+		<section id="banner">
+			<img src="images/bud.jpg" alt="nuggets of weed">
+			<div id="bnrtxt">
+				<h1>Contact</h1>
+			</div>
+		</section>
+		<section id="formarea">
+			<form id="contactForm" method="post" action="index.html" >
+				<ol>
+					<li>
+						<label for="name">Name:</label>
+						<input type="text" autofocus id="name" name="name">
+					</li>
+					<li> 
+						<div class="error" id="name_error">*Please enter a name</div>
+					</li>
+					<li>
+						<label for="phNum">Phone Number:</label>
+						<input type="tel" id="phNum" name="phNum">
+					</li>
+					<li>
+						<div class="error" id="phNum_error">*Please enter a phone Number</div>
+						<div class="error" id="phFormat_error">*Number must be 10 digits</div>
+					</li>
+					<li>
+						<label for="email">Email:</label>
+						<input type="text" id="email" name="email">
+					</li>
+					<li> 
+						<div class="error" id="email_error">*Please enter a email.</div>
+						<div class="error" id="emailformat_error">*Invalid email.</div>
+					</li>
+					<li>
+						<label  for="comments">Comments:</label>
+						<textarea id="comments" name="comments" rows="8" cols="50"></textarea>
+					</li>
+				</ol>
+				<footer>
+					<button id="signButton" type="submit">Submit</button>
+					<button id="resetButton" type="reset">Reset</button>	
+				</footer>
+			</form>
+		</section>
+		<footer>
+			<section class="footarea">
+				<nav>
+					<ul>
+						<li><a href = "index.html">Home</a></li>
+						<li>|</li>
+						<li><a href = "contact.html">Contact</a></li>
+						<li>|</li>
+						<li><!-- <a href = ""></a> -->Products</li>
+					</ul>
+				</nav>
+			</section>
+		</footer>
+	</body>
+
+	
+
+
+</html>

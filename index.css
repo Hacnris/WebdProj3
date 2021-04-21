@@ -1,0 +1,254 @@
+*{
+	margin:0px;
+	padding:0px
+}
+body
+{
+	/*display:flex;
+	flex-direction: column;*/
+	background-color: #00fc44;
+}
+#head
+{
+	z-index:5;
+	display:flex;
+	justify-content: space-between;
+	height:30px;
+	width:100%;
+	position:fixed;
+	background: linear-gradient(0deg, rgba(160,45,253,1) 38%, rgba(212,28,197,1) 57%);
+	color:white;
+}
+.footarea
+{
+
+	width:100%;
+	height:30px;
+	background-color:purple;
+	position:absolute;
+	text-align:center;
+	color:white;
+}
+#botadj
+{
+	bottom:0px;
+}
+
+.footarea ul
+{
+	padding-top: 5px;
+	text-align: center;
+}
+.footarea li
+{
+	display:inline;
+	padding:7px;
+}
+.footarea a
+{
+	text-decoration: none;
+	color:white;
+}
+.footarea a:visited 
+{
+	color:white;
+}
+#navbar
+{
+
+	flex:3;
+
+}
+
+#navbar ul
+{
+	padding-top: 5px;
+	padding-left:40px;
+	text-align: center;
+}
+#navbar li
+{
+	padding:7px;
+	display:inline;
+}
+#navbar a
+{
+	text-decoration: none;
+	padding:7px;
+
+}
+#navbar a:visited
+{
+	color:white;
+}
+
+#navbar a:hover
+{
+	background-color: red;
+}
+/*#navbar li:hover
+{
+	background-color: red;
+}*/
+#thispage
+{
+	background-color: black;
+}
+#signs{
+ width:150px;
+
+}
+#signs ul
+{
+	padding-top: 5px;
+	text-align: center;
+}
+#signs li
+{
+	display:inline;
+	padding:7px;
+}
+#signs li:hover
+{
+	background-color: red;
+}
+#welImgs
+{
+	margin:0px 50px;
+}
+#welImgs img
+{
+	width:400px;
+	height:300px;
+	margin:20px;
+}
+
+#banner
+{
+	display:flex;
+	color:#37cc5f;
+	font-size:40px;
+	position:relative;
+	padding-top: 30px;
+	
+}
+#banner img
+{
+
+	width:100%;
+	height:400px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#bnrtxt h1
+{
+	position:absolute;
+	bottom:20px;
+	left:40px;
+}
+
+#corpInfo
+{
+	margin-top: 10px;
+	margin-left:50px;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	background-color: white;
+	border:2px solid black;
+	border-radius: 4px;
+	height:100%;
+	margin-bottom: 30px;
+}
+#formarea
+{
+	margin:20px;
+	/*background-color: white;*/
+	background-image:url("images/mjleaf.png");
+}
+.prodarea
+{
+	display:flex;
+	background-color: white;
+	margin:10px 20px;
+	flex-direction: column;
+}
+.prodarea div
+{
+	border:2px black solid;
+	flex:1;
+	height:100px;
+	margin:10px 40px;
+	border-radius: 2px;
+	padding:5px;
+	
+
+}
+.prodarea div img
+{
+	
+	float:left;
+	width:100px;
+	height: 100px;
+	margin-right: 10px;
+}
+.prodarea div p
+{
+	margin-left: 110px;
+}
+form
+{
+	z-index: 5;
+	margin:0px auto;
+	width:400px;
+	height:350px;
+	/*border:2px black solid;*/
+	padding:10px;
+	background-color:white;
+}
+.error{
+	display:none;
+	color:red;
+	font-weight: bold;
+	font-size:.8em;
+}
+form ol
+{
+	margin:10 auto;
+	list-style:none;
+}
+form label
+{
+	float:left;
+	width: 150px;
+	text-align: right;
+	
+}
+form textarea
+{
+	float:left;
+	width:160px;
+	text-align: left;
+	margin-bottom: 10px;
+
+}
+
+form li:nth-child(odd)
+{
+	margin-top:10px;
+}
+form div{
+	margin-left: 150px;
+	padding:0;
+}
+form footer
+{
+
+	clear:both;
+	text-align:center;
+}
+
+input:focus, select:focus, textarea:focus
+{
+	background:red;
+	color:white;
+}
